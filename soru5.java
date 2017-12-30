@@ -6,7 +6,7 @@ public class soru5 {
 		System.out.println("İfade Giriniz");
 		Scanner scan=new Scanner(System.in);
 		String ifade=scan.nextLine();
-		System.out.println("İfade Giriniz");
+		System.out.println("Kaç Kez Yazılacagını Giriniz");
 		Scanner kackez=new Scanner(System.in);
 		int adet=kackez.nextInt();
 		for(int i=0;i<adet;i++)
